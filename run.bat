@@ -1,1 +1,1 @@
-python -m robot Results TestCases\*.robot
+python -m robot --outputdir Results TestCases\*.robot
