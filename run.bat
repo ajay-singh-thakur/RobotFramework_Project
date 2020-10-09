@@ -1,2 +1,1 @@
-cd E:\SeleniumFramework\Robot\POMtestRobot
-pabot --processes 2 --outputdir Results TestCases\*.robot
+python -m robot Results TestCases\*.robot
