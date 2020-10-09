@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest                                                              
+==============================================================================
+TC1 Login Test                                                        | FAIL |
+WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=85.0.4183.121)
+------------------------------------------------------------------------------
+Suites.LoginTest                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  E:\SeleniumFramework\Robot\POMtestRobot\Results\pabot_results\0\output.xml

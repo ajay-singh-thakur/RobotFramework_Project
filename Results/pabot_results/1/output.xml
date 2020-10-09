@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20201009 02:15:48.209" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="RegistrationTCs" source="E:\SeleniumFramework\Robot\POMtestRobot\TestCases\RegistrationTCs.robot">
+<test id="s1-s1-t1" name="TC2 Registration Test">
+<kw name="Open my URL" library="RegistrationKeywords">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${SiteURL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20201009 02:15:51.683" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/register'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201009 02:16:11.724" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201009 02:16:07.846" endtime="20201009 02:16:11.724"></status>
+</kw>
+<msg timestamp="20201009 02:16:12.036" level="FAIL">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=85.0.4183.121)
+</msg>
+<status status="FAIL" starttime="20201009 02:15:51.683" endtime="20201009 02:16:12.036"></status>
+</kw>
+<status status="FAIL" starttime="20201009 02:15:51.667" endtime="20201009 02:16:12.036"></status>
+</kw>
+<status status="FAIL" starttime="20201009 02:15:51.667" endtime="20201009 02:16:12.036" critical="yes">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=85.0.4183.121)
+</status>
+</test>
+<status status="FAIL" starttime="20201009 02:15:48.329" endtime="20201009 02:16:12.036"></status>
+</suite>
+<status status="FAIL" starttime="20201009 02:15:48.209" endtime="20201009 02:16:12.058"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="RegistrationTCs">Suites.RegistrationTCs</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
